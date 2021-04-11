@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-2.0-or-later OR MIT
+
 #include "mt7628an_tplink_8m.dtsi"
 
 / {
@@ -66,14 +68,6 @@
 			gpios = <&gpio 44 GPIO_ACTIVE_LOW>;
 		};
 	};
-};
-
-&ehci {
-	status = "okay";
-};
-
-&ohci {
-	status = "okay";
 };
 
 &state_default {
